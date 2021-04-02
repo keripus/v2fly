@@ -1,0 +1,29 @@
+{
+    "inbounds": [
+      {
+        "port": 37192,
+        "listen":"0.0.0.0",
+        "protocol": "vmess",
+        "settings": {
+          "clients": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "alterId": 64
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "ws",
+          "wsSettings": {
+          "path": "/down"
+          }
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "freedom",
+        "settings": {}
+      }
+    ]
+}
